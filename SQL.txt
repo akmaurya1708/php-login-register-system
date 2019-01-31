@@ -1,0 +1,8 @@
+Create Table CMD
+  -CREATE TABLE users (userID int(11) PRIMARY KEY AUTO_INCREMENT, userEmail varchar(255), userPass varchar(255))
+
+Select Table Data
+  - SELECT * FROM `users` where userEmail = 'EmailformField' and userPass = 'PasswordformField' 
+
+Insert Table Data
+  - INSERT INTO `users`(`userID`, `userEmail`, `userPass`) VALUES ('','EmailformField','PasswordformField')
